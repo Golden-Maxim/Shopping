@@ -10,14 +10,14 @@ public class Main {
         try {
             DataBase dataBase = new DataBase();
             Wife wife = new Wife();
-            Husban husban = new Husban();
+            Husband husband = new Husband();
 
             wife.want("Apple");
             wife.want("Asser");
             wife.want("Samsung");
 
             
-            double allPrice = husban.getProductsPrice(wife.getProducts());
+            double allPrice = husband.getProductsPrice(wife.getProducts());
 
             System.out.println("Total list:");
             for (Products temp:dataBase.showAllProduct())

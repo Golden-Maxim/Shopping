@@ -4,9 +4,9 @@ import com.sun.corba.se.spi.monitoring.StatisticsAccumulator;
 
 import java.util.ArrayList;
 
-public class Husban {
+public class Husband {
     private DataBase db;
-    Husban() {
+    Husband() {
         try {
             this.db = new DataBase();
         } catch (ClassNotFoundException e) {
